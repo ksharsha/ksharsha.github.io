@@ -1,216 +1,152 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<style>
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Hyperspace by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
 
-.node {
-  cursor: pointer;
-}
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">About</a></li>
+							<li><a href="#one">Academics</a></li>
+							<li><a href="#two">Projects</a></li>
+							<li><a href="#three">Misc</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
 
-.node circle {
-  fill: #fff;
-  stroke: steelblue;
-  stroke-width: 1.5px;
-}
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-.node text {
-  font: 10px sans-serif;
-}
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Sree Harsha Kalli</h1>
+							<p>I am a graduate student at Carnegie Mellon University pursuing a masters degree in Computer Vision. I am particularly interested in 
+							applying learning related techniques to solve vision related problems.</p>
+							<p>My resume is <a href="https://drive.google.com/file/d/0B6SJAp1j2BFUUHhFNnVGR05Kb1E/view?usp=sharing"> here</a>.</p>
+							
+							
+							
+						</div>
+						<div class="inner">
+						<p> Contact me at <a href="mailto:skalli@cmu.edu">skalli@cmu.edu.</p>
+						</div>
+						<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="https://twitter.com/k_sharsh" class="fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="https://www.facebook.com/kharsha22" class="fa-facebook"><span class="label">Facebook</span></a></li>
+												<li><a href="https://github.com/ksharsha" class="fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.linkedin.com/in/kalli-sree-harsha-09267642" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+											</ul>
+					</section>
 
-.link {
-  fill: none;
-  stroke: #ccc;
-  stroke-width: 1.5px;
-}
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+					<h2><a href="http://www.cmu.edu/">Carnegie Mellon University</a></h2>
+					<p>&nbsp;<a href="http://www.ri.cmu.edu/MSCV">Master of Science in Computer Vision</a><br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;currently in my first semester</p>
+					
+					<h2><a href="http://www.iith.ac.in/">Indian Institute of Technology, Hyderabad</a></h2>
+					<p>&nbsp;Bachelor of Technology in Electrical Engineering, 2015</a><br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CGPA : 9.59/10</p>
+					
+					
+						
+						
 
-</style>
-<body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
-<script>
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Projects</h2>
+							<p>I have worked on several projects in the fields of signal processing, computer vision and Deep Learning. Some of them are listed below</p>
+							<div class="features">
+								<section>
+									<span class="icon major fa-desktop"></span>
+									<h3>Adaptive Tracking of an object using deep networks</h3>
+									<p>Built a recognition system to track an object in a video robustly. The weights of the neural network were initialized using a pre trained Stacked Denoising Auto Encoder. The
+object was tracked using particle filtering and identified by passing it through the MLP network.</p>
+								</section>
+								<section>
+									<span class="icon major fa-desktop"></span>
+									<h3>Circuit Solver Using Image Processing</h3>
+									<p>Came up with an algorithm (using Hough transforms ) to analyse a circuit by just taking the image of the circuit.</p>
+									<p><a href="https://drive.google.com/file/d/0B6xOSdg7v90ZRWNuVjd0cVl0bWc/view">Report</a><br />
+									<a href="https://github.com/ksharsha/CircuitSolver">Code</a></p>
+									
+								</section>
+								<section>
+									<span class="icon major fa-desktop"></span>
+									<h3>Video Segmentation using Convolutional Neural Networks</h3>
+									<p>Augmented pixel level semantic segmentation with object masks to create better semantic segmentation in videos.</p>
+									<a href="https://github.com/ksharsha/VideoSegmentation">Code</a><br/>
+								</section>
+								<section>
+									<span class="icon major fa-desktop"></span>
+									<h3>3D Reconstruction using Prior Information</h3>
+									<p>In this project I have addressed the problem of determining the number of views required and also the transformation required to reconstruct a 3D object using some prior information embedded in the form of a manifold. </p>
+									<p><a href="https://drive.google.com/file/d/0B6xOSdg7v90ZWmtBejlWWHJWYWM/view">Report</a><p>
+								</section>
+								<section>
+									<span class="icon major fa-desktop"></span>
+									<h3>Audio Finger Priniting</h3>
+									<p>Developed algorithms to recognize the song hummed by the users. The pitch for different frames was extracted from the song and this was compared with the pitch of the reference signal using a progressive filtering framework based on Dynamic Time Warping and edit distance.</p>
+									<p><a href="https://drive.google.com/file/d/0B6xOSdg7v90ZcUZQbWtwREpYOFE/view">Presentation</a><p>
+								</section>
+								<section>
+									<span class="icon major fa-desktop"></span>
+									<h3>Glucometer Reader</h3>
+									<p>Developed a portable add on to a glucometer which reads the reading on the display using a photo diode and then this info is processed in the ARM micro controller present in the add on to determine the reading.</p>
+									<a href="https://github.com/ksharsha/GlucometerReader">Code</a><br/>
+									<a href="https://drive.google.com/file/d/0B6xOSdg7v90ZRS1jbEZodXprdkk/view">Presentation</a><p>
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
 
-var treeData = [
-  {
-    "name": "pdrvctct",
-    "parent": "null",
-    "children": [
-      {
-        "name": "Level 2: A",
-        "parent": "Top Level",
-        "children": [
-          {
-            "name": "Son of A",
-            "parent": "Level 2: A"
-          },
-          {
-            "name": "Daughter of A",
-            "parent": "Level 2: A"
-          }
-        ]
-      },
-      {
-        "name": "Level 2: B",
-        "parent": "Top Level"
-      },
-	  {
-        "name": "Level 2: A",
-        "parent": "Top Level",
-        "children": [
-          {
-            "name": "Son of A",
-            "parent": "Level 2: A"
-          },
-          {
-            "name": "Daughter of A",
-            "parent": "Level 2: A"
-          }
-        ]
-      },
-	  {
-        "name": "Level 2: A",
-        "parent": "Top Level",
-        "children": [
-          {
-            "name": "Son of A",
-            "parent": "Level 2: A"
-          },
-          {
-            "name": "Daughter of A",
-            "parent": "Level 2: A"
-          }
-        ]
-      }
-	  
-    ]
-  }
-];
+				<!-- Three -->
+					<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Misc</h2>
+							
+						</div>
+					</section>
 
-var margin = {top: 20, right: 120, bottom: 20, left: 120},
-    width = 960 - margin.right - margin.left,
-    height = 800 - margin.top - margin.bottom;
+			</div>
 
-var i = 0,
-    duration = 750,
-    root;
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
 
-var tree = d3.layout.tree()
-    .size([height, width]);
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 
-var diagonal = d3.svg.diagonal()
-    .projection(function(d) { return [d.y, d.x]; });
-
-var svg = d3.select("body").append("svg")
-    .attr("width", width + margin.right + margin.left)
-    .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-root = treeData[0];
-root.x0 = height / 2;
-root.y0 = 0;
-  
-update(root);
-
-d3.select(self.frameElement).style("height", "800px");
-
-function update(source) {
-
-  // Compute the new tree layout.
-  var nodes = tree.nodes(root).reverse(),
-      links = tree.links(nodes);
-
-  // Normalize for fixed-depth.
-  nodes.forEach(function(d) { d.y = d.depth * 180; });
-
-  // Update the nodes…
-  var node = svg.selectAll("g.node")
-      .data(nodes, function(d) { return d.id || (d.id = ++i); });
-
-  // Enter any new nodes at the parent's previous position.
-  var nodeEnter = node.enter().append("g")
-      .attr("class", "node")
-      .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
-      .on("click", click);
-
-  nodeEnter.append("circle")
-      .attr("r", 1e-6)
-      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
-
-  nodeEnter.append("text")
-      .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
-      .attr("dy", ".35em")
-      .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
-      .text(function(d) { return d.name; })
-      .style("fill-opacity", 1e-6);
-
-  // Transition nodes to their new position.
-  var nodeUpdate = node.transition()
-      .duration(duration)
-      .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
-
-  nodeUpdate.select("circle")
-      .attr("r", 4.5)
-      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
-
-  nodeUpdate.select("text")
-      .style("fill-opacity", 1);
-
-  // Transition exiting nodes to the parent's new position.
-  var nodeExit = node.exit().transition()
-      .duration(duration)
-      .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
-      .remove();
-
-  nodeExit.select("circle")
-      .attr("r", 1e-6);
-
-  nodeExit.select("text")
-      .style("fill-opacity", 1e-6);
-
-  // Update the links…
-  var link = svg.selectAll("path.link")
-      .data(links, function(d) { return d.target.id; });
-
-  // Enter any new links at the parent's previous position.
-  link.enter().insert("path", "g")
-      .attr("class", "link")
-      .attr("d", function(d) {
-        var o = {x: source.x0, y: source.y0};
-        return diagonal({source: o, target: o});
-      });
-
-  // Transition links to their new position.
-  link.transition()
-      .duration(duration)
-      .attr("d", diagonal);
-
-  // Transition exiting nodes to the parent's new position.
-  link.exit().transition()
-      .duration(duration)
-      .attr("d", function(d) {
-        var o = {x: source.x, y: source.y};
-        return diagonal({source: o, target: o});
-      })
-      .remove();
-
-  // Stash the old positions for transition.
-  nodes.forEach(function(d) {
-    d.x0 = d.x;
-    d.y0 = d.y;
-  });
-}
-
-// Toggle children on click.
-function click(d) {
-  if (d.children) {
-    d._children = d.children;
-    d.children = null;
-  } else {
-    d.children = d._children;
-    d._children = null;
-  }
-  update(d);
-}
-
-</script>
-
-</body>
+	</body>
 </html>
